@@ -55,3 +55,6 @@ print(text.partition('b')[2])
 print("hello Sam".replace('Sam','Alex'))
 print("hoello".rfind('o'))
 print("    hello    ".strip())
+#! we have all the right version of these functions
+#like rpartition rindex rjust ...
+print("HeLlO".swapcase(),"HeLlO".upper(),'hello'.zfill(10))
