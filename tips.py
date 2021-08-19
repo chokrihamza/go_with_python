@@ -27,3 +27,11 @@ print(x&y)
 print(x^y)
 a = {x for x in 'abracadabra' if x not in 'abc'}
 print(a)
+
+#dictionaries
+dict1=dict([('sape', 4139), ('guido', 4127), ('jack', 4098)])
+print(dict1)
+
+dict2={f'intem{x}':x**3 for x in range(10)}
+print(dict2.items())
+print((1, 2, 3, 4)<(1, 2, 5))
