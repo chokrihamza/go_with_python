@@ -1,20 +1,20 @@
-list=[1,2,3,4,5]
+ls=[1,2,3,4,5]
 
-print(list)
-print(len(list))
-print(list[0:3])
+print(ls)
+print(len(ls))
+print(ls[0:3])
 
-if list :
+if ls :
   print("yesss it work ")
  
-#change list items 
-list[0]="hello"
-print(list)
-list[2:]="there"
-list[2:]=['there']
-list.append("how are you")
-list.insert(0,'hehehe')
-print(list)
+#change ls items 
+ls[0]="hello"
+print(ls)
+ls[2:]="there"
+ls[2:]=['there']
+ls.append("how are you")
+ls.insert(0,'hehehe')
+print(ls)
 
 list1=[1,2,3,4]
 list2=["a","b","c","d"]
@@ -38,3 +38,15 @@ x.sort(reverse=True)
 print(x)
 x.sort(key=lambda x:pow(x,2))
 print(x)
+# copy a list
+y=x.copy()
+print(y)
+# or just like this 
+a=[1,2,3]
+y=list(a)
+print(y)
+
+# in python you can join lists 
+listx=[1,2,3,4]
+listy=['a','b','c']
+print(listx+listy)
