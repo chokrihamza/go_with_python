@@ -18,3 +18,13 @@ print(tuple1)
 (a,b,c)=(1,2,3)
 d,e,f=[4,5,6]
 print(a,b,c,d,e,f)
+# using  asterisk *
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+
+(_,*red) = fruits
+print(_,red)
+# loop a tupel is very easy
+# tuples have only count and index functions
+
+
+
